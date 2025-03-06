@@ -1,3 +1,4 @@
+
 # 🛒 Walmart Sales Performance Analysis Using Advanced MySQL Techniques
 
 ## 📑 Project Overview
@@ -22,11 +23,18 @@ Walmart-Sales-Performance-Analysis/
 │   ├── Task 8.sql               # Identifying Repeat Customers
 │   ├── Task 9.sql               # Top 5 Customers by Sales Volume
 │   ├── Task 10.sql              # Sales Trends by Day of Week
+├── Dataset/
+│   ├── walmartsales.csv         # Provided dataset for the project
 ├── Project.pdf                    # Problem Statement
 ├── Presentation.pptx              # Final Report with Queries + Results + Insights
-├── Dataset/                       # (Optional - Dataset if needed)
 ├── README.md
 ```
+
+---
+
+## 📥 Dataset
+
+The dataset `walmartsales.csv` is included in the `Dataset/` folder. This allows anyone to directly run the provided queries on the actual data.
 
 ---
 
@@ -72,7 +80,7 @@ Walmart wants to optimize its sales strategies by understanding:
 
 ## 📊 Key Insights
 
-- Branch X had the **highest sales growth** over the analysis period.
+- Branch C had the **highest sales growth** over the analysis period.
 - Product Line Y was the **most profitable** across all branches.
 - **High spenders** contributed to over 60% of total revenue.
 - **Sundays** saw the highest sales, indicating peak shopping day.
@@ -90,17 +98,18 @@ Walmart wants to optimize its sales strategies by understanding:
 
 ## 👨‍💻 Author
 
-- Himanshu Jagga
+- Himanshu Jagga 
 - https://www.linkedin.com/in/himanshu-jagga-b08ab6170/
-  
+
 ---
 
 ## ⭐️ How to Use This Repository
 
 1. Clone the repository.  
-2. Review `Queries/` folder for all SQL queries.  
-3. Open `Presentation.pptx` for final insights and visualizations.  
-4. Review `README.md` for project overview.  
+2. Open the `Queries/` folder and review all SQL queries.  
+3. Use `walmartsales.csv` in your MySQL database to run these queries.  
+4. Review `Presentation.pptx` for visualizations and key insights.  
+5. Review `README.md` for project overview.  
 
 ---
 
